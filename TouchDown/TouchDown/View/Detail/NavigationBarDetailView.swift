@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct NavigationBarDetailView: View {
+    // MARK: - Proprties
     @EnvironmentObject var shop: Shop
-    
+    // MARK: - Body
     var body: some View {
         HStack  {
             Button(action: {
